@@ -1,0 +1,149 @@
+body {
+	margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);*/
+    background: url("Bg.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.gamedivbox{
+	height: 513px;
+}
+
+.FromeWin{
+    padding: 20px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 13px;
+    backdrop-filter: blur(15px);
+}
+
+.GLogo{
+    color: #01e401;
+    font-family: 'Lobster', cursive;
+}
+.backgoundInput {
+   opacity: 0.7;
+}
+
+.rounds {
+	color: aqua;
+    margin-left: 35px;
+    margin-bottom: -64px;
+    margin-top: revert;
+}
+
+.Gbox {
+	width: 375px;
+	height: 375px;
+    border-radius: 7px;
+    box-shadow: 0 0.5rem 1rem rgba(var(--bs-body-color-rgb),.15)!important;
+    background: #0f21f31f;
+    border: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(8px);
+}
+
+.user2 {
+    background-color: #fffc0836;
+    margin-bottom: 14px;
+    margin-left: 221px;
+    height: 66px;
+    width: 125px;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    backdrop-filter: blur(2px);
+    color: white;
+}
+
+.user1 {
+    background-color: #ff084136;
+    margin-top: 14px;
+    margin-right: 221px;
+    height: 66px;
+    width: 125px;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    backdrop-filter: blur(2px);
+    color: white;
+}
+
+.username {
+    margin: 4px 10px;
+}
+
+.circule {
+    width: 13px;
+    height: 13px;
+    border: 2px;
+    border-radius: 50px;
+    background-color: green;
+}
+
+.ciruleBox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hr {
+    margin: 0 0 7px 0;
+}
+
+.ScoreBox h2 {
+    margin: 13px 0 0 0;
+}
+
+
+.popupbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 5px;
+    backdrop-filter: brightness(0.3);
+    width: 303px;
+    height: 283px;
+    padding: 5px;
+    justify-content: center;
+    color: #fff;
+    margin: auto;
+    margin-top: -404px;
+    transform: scale(0.1);
+    visibility: hidden;
+    transition: transform 0.3s, top 0.3s;
+}
+
+.popupbox button {
+    width: 81px;
+    height: 31px;
+    background: #21d47aba;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+}
+
+.openPopup {
+    visibility: visible;
+    transform:  scale(1);
+}
+
+.BoxShadow {
+    box-shadow: rgb(235 255 0) 1px 4px 12px;
+}
+
+
+@media only screen and (max-width: 380px) {
+	.Gbox{
+		width: 345px;
+		height: 335px;
+	}
+	
+}

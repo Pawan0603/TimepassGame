@@ -1,0 +1,95 @@
+.GElement {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 38px;
+    cursor: pointer;
+/*    visibility: hidden;*/
+}
+
+#EA1 {
+    margin: -339px 0px 0 10px;
+}
+
+#EA2 {
+    margin: -339px 0px 0 177px;
+}
+
+#EA3 {
+    margin: -339px 0px 0 344px;
+}
+
+#EB1 {
+    margin: -176px 0px 0 10px;
+}
+
+#EB2 {
+    margin: -176px 0px 0 177px;
+}
+
+#EB3 {
+    margin: -176px 0px 0 344px;
+}
+
+#EC1 {
+    margin: -14px 0px 0 10px;
+}
+
+#EC2 {
+    margin: -14px 0px 0 177px;
+}
+
+#EC3 {
+    margin: -14px 0px 0 344px;
+}
+
+@media only screen and (max-width: 380px) {
+	#EA1 {
+		margin: -292px 0px 0 17px;
+	}
+	#EA2 {
+		margin: -292px 0px 0 161px;
+	}
+	#EA3 {
+		margin: -292px 0px 0 305px;
+	}
+	#EB1 {
+		margin: -153px 0px 0 15px;
+	}
+	#EB2 {
+		margin: -153px 0px 0 161px;
+	}
+	#EB3 {
+		margin: -153px 0px 0 305px;
+	}
+	#EC1 {
+		margin: -14px 0px 0 17px;
+	}
+	#EC2 {
+		margin: -14px 0px 0 161px;
+	}
+	#EC3 {
+		margin: -14px 0px 0 305px;
+	}
+
+	
+}
+
+/*=============================================================================*/
+.U1visiblity {
+    background-color: blue;
+    border: 2px solid red;
+}
+
+.U2visiblity {
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+.ESelect {
+    width: 23px;
+    height: 23px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}

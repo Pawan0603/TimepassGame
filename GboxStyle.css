@@ -1,0 +1,136 @@
+.UpperLines {
+	display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.HLine {
+    height: 5px;
+    width: 171px;
+}
+
+.UpperWL{
+	display: flex;
+    justify-content: center;
+}
+
+.WLine{
+	height: 164px;
+    width: 5px;
+}
+
+.MidWL {
+	margin: 0 80px
+}
+
+.MiddelLines{
+	display: flex;
+    justify-content: center;
+    margin: -37px 0 0 0;
+}
+
+.LoverWL{
+	display: flex;
+    justify-content: center;
+}
+
+.LoverLines{
+	display: flex;
+	justify-content: center;
+    margin: -38px 0 0 0;
+}
+
+.RLLine{
+	margin: -37px 0 0 0;
+    height: 234px;
+    width: 5px;
+    transform: rotate(314deg);
+}
+
+.WLine1 {
+    margin-right: 78px;
+}
+
+.WLine2 {
+    margin-left: 79px;
+}
+
+.LRLine {
+    margin: -37px 0 0 0;
+    height: 234px;
+    width: 5px;
+    transform: rotate(46deg);
+}
+
+.RLLine2{
+	margin: -37px 0 0 0;
+    height: 234px;
+    width: 5px;
+    transform: rotate(46deg);
+}
+
+.LRLine2 {
+    margin: -37px 0 0 0;
+    height: 234px;
+    width: 5px;
+    transform: rotate(314deg);
+}
+
+.LineColor {
+    background-color: #b3b3b3;
+}
+
+.highLightLigth {
+    background-color: gray;
+}
+
+@media only screen and (max-width: 380px) {
+	
+	.HLine{
+		width: 148px;
+	}
+	
+	.WLine{
+		height: 139px;
+	}
+	
+	.WLine1 {
+		margin-right: 68px;
+	}
+	
+	.WLine2 {
+		margin-left: 69px;
+	}
+	
+	.LoverLines {
+		margin: -33px 0 0 0;
+	}
+	
+	.LRLine {
+		height: 200px;
+		margin: -33px 0 0px 0px;
+	}
+	
+	.RLLine {
+		margin: -33px 0 0px 0px;
+		height: 200px;
+	}
+	
+	.LRLine2 {
+		height: 200px;
+		margin: -32px 0 0 0;
+	}
+	
+	.RLLine2 {
+		height: 200px;
+		margin: -32px 0 0 0;
+	}
+	
+	.MidWL {
+		margin: 0 67px;
+	}
+	
+	.MiddelLines {
+		margin: -32px 0 0 0;
+	}
+}
